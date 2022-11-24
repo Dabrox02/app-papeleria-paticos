@@ -1,0 +1,16 @@
+1. bd: carpeta que contiene los querys de la base de datos para ejecutar.  -- QUERY = CONSULTAS
+2. clases: contiene las clases de cada modulo con los metodos de CRUD. CRUD = CREATE, REMOVE, UPDATE, DELETE
+3. css: scripts css para dar estilo personalizado.
+4. img: contiene todas las imagenes que necesitemos para las vistas.
+5. archivos: contiene todas las imagenes de los productos agregados.
+6. js: contiene todos los scripts js para cada modulo para ejecutar las funciones de CRUD.
+7. librerias: contendra las librerias:
+	- Bootstrap
+	- Jquery
+	- Select 2
+	- Dompdf
+	- Php7
+	- Mysql
+	-Alertify
+8. procesos: contiene archivos intermedios entre las clases y las vistas.
+9. vistas: contendra las vistas de cada uno de los modulos.

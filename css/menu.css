@@ -1,0 +1,77 @@
+/* *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+} */
+
+/* header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 28px 12%;
+  transition: all .50s ease;
+} */
+
+i {
+  margin: 2px;
+}
+
+.navbar {
+  display: flex;
+  height: 100px;
+  padding: 0;
+  background-color: rgb(245, 245, 245);
+}
+
+.navbar .container-fluid {
+  background-color: rgb(245, 245, 245);
+}
+
+#logoPaticos {
+  margin-left: 18px;
+}
+
+.navbar .nav-item .nav-link:active {
+  color: rgb(0, 195, 255);
+}
+
+div .nav-item .nav-link {
+  /* background-color: aqua;
+  color: white;
+  border: 1px solid black; 
+  margin-left: 15px; */
+  margin-right: 15px;
+  font-size: 16px;
+  color: black;
+}
+
+.bi::before {
+  display: inline-block;
+  content: "";
+  vertical-align: -.125em;
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+
+ul .dropdown-item {
+  /* background-color: red; */
+  font-size: 16px;
+}
+
+ul .dropdown-item:hover {
+  background-color: aqua;
+  color: black;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
